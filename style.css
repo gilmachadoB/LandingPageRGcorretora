@@ -1,27 +1,24 @@
 body {
   background-color: #f0efeb;
-  font-family: "Quicksand", sans-serif;
+  font-family: "Noto Serif", serif;
   padding: 0%;
   margin: 0%;
 }
 
 .navbar {
-  background-color: #9ab5cc;
+  background-color: #778da9;
   width: 100%;
-  height: 100px;
+  height: 26vh;
+  margin-bottom: 25vh;
+  display: flex;
+  flex-direction: row;
 }
-.navbar > img {
-  width: 100px;
-  margin-left: 20px;
-}
+
 .center {
   display: flex;
   justify-content: center;
   text-align: center;
-}
-
-#img {
-  width: 300px;
+  margin-bottom: 30px;
 }
 
 .linha {
@@ -35,6 +32,29 @@ body {
   background-color: #fff;
   padding: 8px;
 }
+#cards {
+  margin-top: 25vh;
+}
+#imgtext {
+  margin-top: 25vh;
+  margin-bottom: 20vh;
+}
+
+#imgcenter {
+  margin-top: 25vh;
+}
+
+#imglogo {
+  width: 30vh;
+  height: 26vh;
+  margin-left: 100px;
+}
+
+#textlogo {
+  line-height: 26vh;
+  font-size: 5vh;
+}
+
 .column > img {
   width: 100%;
   height: 50%;
@@ -47,11 +67,9 @@ body {
   display: flex;
   flex-direction: column;
 }
-.margin-top {
-  margin-top: 50px;
-}
 
-#img1 {
+#img1,
+#q-conta {
   margin-top: 100px;
   display: flex;
   justify-content: center;
@@ -67,7 +85,7 @@ body {
   width: 50%;
   padding: 10px;
   border-radius: 20px;
-  background-color: #edc19f;
+  background-color: #415a77;
   height: 346px;
   color: black;
   margin-top: 100px;
@@ -76,10 +94,14 @@ body {
 #text {
   width: 50%;
   text-align: center;
+  margin-top: 5vh;
+}
+#tituloQ {
+  margin-top: 20vh;
 }
 footer {
-  background-color: #9ab5cc;
-  height: 80px;
+  background-color: #778da9;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -89,12 +111,12 @@ footer a {
   color: black;
 }
 .button {
-  background-color: #edc19f;
+  background-color: #778da9;
   border-radius: 8px;
   width: 100%;
   padding: 5px;
   border: none;
-  color: #fff;
+  color: black;
   cursor: pointer;
   transition: 0.5s;
   position: relative;
@@ -102,12 +124,13 @@ footer a {
 }
 
 .button:hover {
-  background-color: pink;
+  background-color: #e0e1dd;
 }
 .product-title {
   height: 50px;
   display: block;
   font-weight: bolder;
+  text-align: center;
 }
 .input {
   border-radius: 8px;
@@ -129,16 +152,14 @@ footer a {
   background-color: #fff;
 }
 #button:hover {
-  background-color: pink;
+  background-color: #e0e1dd;
 }
-.value {
-  font-weight: bolder;
+
+#frasefooter {
+  width: 40px;
+  height: 40px;
 }
-#linkedin {
-  width: 30px;
-  height: 30px;
-}
-#linkedin-container {
+#frasefooter {
   display: flex;
   align-items: center;
 }
@@ -153,11 +174,7 @@ footer a {
   .mobile {
     flex-direction: column;
   }
-  #img1 {
-    width: 90%;
-    margin-left: 5%;
-    margin-top: 20px;
-  }
+
   .form {
     width: 88%;
     margin-left: none;
