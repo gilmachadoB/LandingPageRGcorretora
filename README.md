@@ -1,1 +1,1 @@
-# LandingPage criada para cumprir o desafio dado pelo Hiring Coders :)
+# Landing page desenvolvida para um trabalho da faculdade da matéria de Projetos!
